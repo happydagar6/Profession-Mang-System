@@ -84,6 +84,6 @@ function renderEmployeeList() {
             </div>
             <button class="delete-btn" onclick="deleteEmployee(${employee.id})">Delete User</button>
         `;
-        employeeList.appendChild(card); // Append the card to the employee list
+        employeeList.appendChild(card);
   });
 }
